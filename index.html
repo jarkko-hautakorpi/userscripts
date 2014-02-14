@@ -17,41 +17,41 @@
   </head>
 
   <body>
-      <header contenteditable="true">
-          <div class="inner" contenteditable="true">
-              <h1 contenteditable="true">Userscripts</h1>
-              <h2 contenteditable="true">Bookmarklets and userscripts for tampermonkey..</h2>
-              <a href="https://github.com/jarkko-hautakorpi/userscripts" class="button" contenteditable="true"><small contenteditable="true">View project on</small>GitHub</a>
+      <header>
+          <div class="inner">
+              <h1>Userscripts</h1>
+              <h2>Bookmarklets and userscripts for tampermonkey..</h2>
+              <a href="https://github.com/jarkko-hautakorpi/userscripts" class="button"><small>View project on</small>GitHub</a>
           </div>
       </header>
 
-      <div id="content-wrapper" contenteditable="true">
-          <div class="inner clearfix" contenteditable="true">
-              <section id="main-content" contenteditable="true">
-                  <h3 contenteditable="true">
-                      <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" contenteditable="true"><span class="octicon octicon-link" contenteditable="true"></span></a>Edit Any Webpage Script (<span class="css-truncate css-truncate-target"><a href="https://github.com/jarkko-hautakorpi/userscripts/blob/master/EditAllPages.js" class="js-directory-link" id="f5d7fe259678efb3a507f6c687c13a9a-0ad479e157e92d3c1fee933d3c267c4f77cdd805" title="EditAllPages.js">EditAllPages.js</a></span>).</h3>
+      <div id="content-wrapper">
+          <div class="inner clearfix">
+              <section id="main-content">
+                  <h3>
+                      <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Edit Any Webpage Script (<span class="css-truncate css-truncate-target"><a href="https://github.com/jarkko-hautakorpi/userscripts/blob/master/EditAllPages.js" class="js-directory-link" id="f5d7fe259678efb3a507f6c687c13a9a-0ad479e157e92d3c1fee933d3c267c4f77cdd805" title="EditAllPages.js">EditAllPages.js</a></span>).</h3>
 
-                  <p contenteditable="true">This tampermonkey javascript allows you to edit any existing webpage directly (not save to server, yet):</p>
+                  <p>This tampermonkey javascript allows you to edit any existing webpage directly (not save to server, yet):</p>
 
-                  <pre contenteditable="true"><code contenteditable="true">// ==UserScript==<br>// @name       EditAllPages<br>// @namespace  http://www.raspiscope.com<br>// @version    0.1<br>// @description  Makes all themepreviews editable, except some shitty Flash-themes<br>// @match      http://themeforest.net<br>// @match      http://themeforest.net/*<br>// @copyright  2014+, Jarkko Hautakorpi<br>// ==/UserScript==<br><br>doms = document.getElementsByTagName("*");<br>for (var i=0, max=doms.length; i &lt; max; i++) {<br>    if(typeof doms[i].setAttribute === 'function') {<br>        doms[i].setAttribute("contenteditable","true");<br>	}<br>}
+                  <pre><code>// ==UserScript==<br>// @name       EditAllPages<br>// @namespace  http://www.raspiscope.com<br>// @version    0.1<br>// @description  Makes all themepreviews editable, except some shitty Flash-themes<br>// @match      http://themeforest.net<br>// @match      http://themeforest.net/*<br>// @copyright  2014+, Jarkko Hautakorpi<br>// ==/UserScript==<br><br>doms = document.getElementsByTagName("*");<br>for (var i=0, max=doms.length; i &lt; max; i++) {<br>    if(typeof doms[i].setAttribute === 'function') {<br>        doms[i].setAttribute("contenteditable","true");<br>	}<br>}
 </code></pre>
 
-                  <p contenteditable="true">If you do not want to use tampermonkey, just drag this bookmarklet to you browsers bookmark toolbar:</p>
-                  <p contenteditable="true"><a href="javascript:(function(){doms = document.getElementsByTagName('*');for (var i=0, max=doms.length; i < max; i++) {if(typeof doms[i].setAttribute === 'function') {doms[i].setAttribute('contenteditable','true');}}})();" title="Drag this to bookmarks toolbar">EditThisPage</a></p><p contenteditable="true">Navigate to the page you want to edit, and click the EditThisPage -bookmark link and Voilà! The page is now editable!<br></p></section>
+                  <p>If you do not want to use tampermonkey, just drag this bookmarklet to you browsers bookmark toolbar:</p>
+                  <p><a href="javascript:(function(){doms = document.getElementsByTagName('*');for (var i=0, max=doms.length; i < max; i++) {if(typeof doms[i].setAttribute === 'function') {doms[i].setAttribute('contenteditable','true');}}})();" title="Drag this to bookmarks toolbar">EditThisPage</a></p><p>Navigate to the page you want to edit, and click the EditThisPage -bookmark link and Voilà! The page is now editable!<br></p></section>
 
-              <aside id="sidebar" contenteditable="true">
-                  <a href="https://github.com/jarkko-hautakorpi/userscripts/zipball/master" class="button" contenteditable="true">
-                      <small contenteditable="true">Download</small>
+              <aside id="sidebar">
+                  <a href="https://github.com/jarkko-hautakorpi/userscripts/zipball/master" class="button">
+                      <small>Download</small>
                       .zip file
                   </a>
-                  <a href="https://github.com/jarkko-hautakorpi/userscripts/tarball/master" class="button" contenteditable="true">
-                      <small contenteditable="true">Download</small>
+                  <a href="https://github.com/jarkko-hautakorpi/userscripts/tarball/master" class="button">
+                      <small>Download</small>
                       .tar.gz file
                   </a>
 
-                  <p class="repo-owner" contenteditable="true"><a href="https://github.com/jarkko-hautakorpi/userscripts" contenteditable="true"></a> is maintained by <a href="https://github.com/jarkko-hautakorpi" contenteditable="true">jarkko-hautakorpi</a>.</p>
+                  <p class="repo-owner"><a href="https://github.com/jarkko-hautakorpi/userscripts"></a> is maintained by <a href="https://github.com/jarkko-hautakorpi">jarkko-hautakorpi</a>.</p>
 
-                  <p contenteditable="true">This page was generated by <a href="https://pages.github.com" contenteditable="true">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong" contenteditable="true">Jason Long</a>.</p>
+                  <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
               </aside>
           </div>
       </div>
