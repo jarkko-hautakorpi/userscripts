@@ -36,7 +36,7 @@
                   <pre><code>// ==UserScript==<br>// @name       EditAllPages<br>// @namespace  http://www.raspiscope.com<br>// @version    0.1<br>// @description  Makes all themepreviews editable, except some shitty Flash-themes<br>// @match      http://themeforest.net<br>// @match      http://themeforest.net/*<br>// @copyright  2014+, Jarkko Hautakorpi<br>// ==/UserScript==<br><br>doms = document.getElementsByTagName("*");<br>for (var i=0, max=doms.length; i &lt; max; i++) {<br>    if(typeof doms[i].setAttribute === 'function') {<br>        doms[i].setAttribute("contenteditable","true");<br>	}<br>}
 </code></pre>
 
-                  <p>If you do not want to use tampermonkey, just drag this bookmarklet to you browsers bookmark toolbar:</p>
+                  <p>If you do not want to use tampermonkey, <b>just drag this bookmarklet to you browsers bookmark toolbar</b>:</p>
                   <p><a href="javascript:(function(){doms = document.getElementsByTagName('*');for (var i=0, max=doms.length; i < max; i++) {if(typeof doms[i].setAttribute === 'function') {doms[i].setAttribute('contenteditable','true');}}})();" title="Drag this to bookmarks toolbar">EditThisPage</a></p><p>Navigate to the page you want to edit, and click the EditThisPage -bookmark link and Voilà! The page is now editable!<br></p></section>
 
               <aside id="sidebar">
