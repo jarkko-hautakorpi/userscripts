@@ -1,6 +1,14 @@
-userscripts
-===========
+# Edit This Page -bookmarklet
 
-Bookmarklets and userscripts for tampermonkey..
+Drag these links into the bookmark bar of Chrome or Firefox for quickly to edit any page<br>Great for web designers and others to quickly demonstrate changes in any web page!
+<br>
+<br>
+<a href="http://www.jarkonkotisivu.org/mvtheme/pages/en/computers/edit-any-page-bookmarklet.php">Get these bookmarklets from my homepage --></a>
+<br>
+<br>
 
-<a href="javascript:(function(){doms = document.getElementsByTagName('*');for (var i=0, max=doms.length; i < max; i++) {if(typeof doms[i].setAttribute === 'function') {doms[i].setAttribute('contenteditable','true');}}})();" title="Drag this to bookmarks toolbar">Edit This Page</a>
+## Userscripts
+
+Bookmarklets and userscripts for tampermonkey..<br>
+
+`<a href="javascript:(function(){document.body.setAttribute('contenteditable','true')})();">Edit page</a>`
