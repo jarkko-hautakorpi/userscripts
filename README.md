@@ -12,3 +12,5 @@ Drag these links into the bookmark bar of Chrome or Firefox for quickly to edit 
 Bookmarklets and userscripts for tampermonkey..<br>
 
 `<a href="javascript:(function(){document.body.setAttribute('contenteditable','true')})();">Edit page</a>`
+
+![Screenshot](https://github.com/jarkko-hautakorpi/userscripts/blob/master/editanypage.gif)
